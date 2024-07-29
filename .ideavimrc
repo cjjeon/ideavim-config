@@ -50,6 +50,7 @@ nmap <leader>] <Action>(NextTab)
 nmap <leader>m <Action>(MoveEditorToOppositeTabGroup)
 nmap <leader>c <Action>(CloseAllEditorsButActive)
 nmap <leader>o <C-o>
+vmap <Tab> <Action>(SelectNextOccurrence)
 
 " Split open
 nmap <leader>so <C-]>:vsp<CR>
